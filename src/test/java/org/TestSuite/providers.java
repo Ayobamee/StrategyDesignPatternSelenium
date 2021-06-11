@@ -32,21 +32,7 @@ public class providers extends signIn {
         providercheck.getcatalog().click();
 
 
-
-
-
-//        //Assert that program modules load successfully.
-//        if(programcheck.getprogram().checkprogram()&programcheck.getprogram().checkanalytes()
-//        &programcheck.getprogram().checkdiscipline()&programcheck.getprogram().checkordercode()){
-//
-//            System.out.println("Program modules load successfully");
-//        }
-//        else{
-//            System.out.println("Oops, something went wrong");
-//        }
-//
-//        //close the app
-//        driver.quit();
+       driver.quit();
 
 
     }
