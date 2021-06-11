@@ -1,5 +1,7 @@
 package org.TestSuite;
 import org.oneWorldAccuracy.PageObjects.OWALandingPage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import reusable.signIn;
 
@@ -18,7 +20,20 @@ public class providers extends signIn {
 
         OWALandingPage providercheck = new OWALandingPage(driver);
 
+        //Click provider.
         providercheck.getprovidersModule().click();
+
+        Select drpCountry = new Select(driver.findElement(By.xpath("//body/div[@id='simple-menu']/div[3]/ul[1]/div[1]/select[1]")));
+
+        //Select canada from provider dropdown.
+        drpCountry.selectByVisibleText("Canada");
+
+        //Click catalog.
+        providercheck.getcatalog().click();
+
+
+
+
 
 //        //Assert that program modules load successfully.
 //        if(programcheck.getprogram().checkprogram()&programcheck.getprogram().checkanalytes()

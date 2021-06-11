@@ -13,6 +13,7 @@ public class OWALandingPage {
     By ordercode = By.xpath("//div[contains(text(),'Order Code')]");
     By analytes = By.xpath("//div[contains(text(),'Analytes')]");
     By providersModule = By.xpath("//a[contains(text(),'Providers')]");
+    By catalog = By.xpath("//a[contains(text(),'Get Catalog')]");
 
 
 
@@ -42,6 +43,11 @@ public class OWALandingPage {
     public providersModule getprovidersModule()
     {
         return new providersModule(driver, providersModule);
+    }
+
+    public catalog getcatalog()
+    {
+        return new catalog(driver, catalog);
     }
 
 

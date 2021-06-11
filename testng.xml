@@ -5,6 +5,7 @@
     <classes>
       <class name="org.TestSuite.homePage"/>
       <class name="org.TestSuite.programs"/>
+      <class name="org.TestSuite.providers"/>
 
     </classes>
   </test> <!-- Test -->
