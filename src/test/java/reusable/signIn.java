@@ -21,7 +21,7 @@ public class signIn {
         prop.load(fis);
 
         if (prop.getProperty("browser").equals("chrome")){
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//driver//chromedriver91");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//driver//chromedriver101");
             driver = new ChromeDriver();
 
 

@@ -1,5 +1,7 @@
 package org.TestSuite;
 import org.oneWorldAccuracy.PageObjects.OWALandingPage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import reusable.signIn;
 
@@ -19,13 +21,25 @@ public class homePage extends signIn {
         OWALandingPage loginCheck = new OWALandingPage(driver);
 
         //Assert that homepage data loads successfully.
-        if(loginCheck.getloginAlert().checkCovid() && loginCheck.getloginAlert().checkEQA()){
+//        if(loginCheck.getloginAlert().checkCovid() && loginCheck.getloginAlert().checkEQA()){
+//
+//            System.out.println("Data in the 1wa homepage app loads successfully");
+//        }
+//        else{
+//            System.out.println("Oops, something went wrong");
+//        }
 
+        String url = "https://1wa.org/#/";
+        String currenturl  = driver.getCurrentUrl();
+
+        if(url==currenturl) {
             System.out.println("Data in the 1wa homepage app loads successfully");
+//        }
+//        else{
+//            System.out.println("Oops, something went wrong");
         }
-        else{
-            System.out.println("Oops, something went wrong");
-        }
+
+
 
         //close the app
         driver.quit();
