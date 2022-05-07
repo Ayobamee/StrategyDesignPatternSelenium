@@ -7,5 +7,7 @@ The "Page Objects" folder specifies classes that have all the page objects in on
 The test folder contains the different tests to be run, an instance of a class is initiated here so that they can be used to interact with methods in the Page objects and Page components.
 Utilities folder houses the browser properties that could be selected
 The resuable folder consists methods that can always be reused eg the sign in class 
+The testng.xml file is used to control the tests to be executed.
+The pom.xml file manages all dependencies used in the project.
 
 Author : Ayobami 
