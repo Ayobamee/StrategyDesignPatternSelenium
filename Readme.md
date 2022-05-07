@@ -8,4 +8,4 @@ The test folder contains the different tests to be run, an instance of a class i
 Utilities folder houses the browser properties that could be selected
 The resuable folder consists methods that can always be reused eg the sign in class 
 
-
+Author : Ayobami 
