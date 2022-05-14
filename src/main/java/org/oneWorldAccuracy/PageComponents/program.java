@@ -8,7 +8,7 @@ public class program extends AbstractComponent {
 
 
     By discipline = By.xpath("//div[contains(text(),'Discipline')]");
-    By program = By.xpath("//div[contains(text(),'Program')]");
+    By program = By.xpath("//body/div[@id='root']/div[2]/div[2]/div[2]/a[2]");
     By ordercode = By.xpath("//div[contains(text(),'Order Code')]");
     By analytes = By.xpath("//div[contains(text(),'Analytes')]");
 

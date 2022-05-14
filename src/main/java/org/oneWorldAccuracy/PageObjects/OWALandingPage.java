@@ -7,9 +7,9 @@ import org.oneWorldAccuracy.PageComponents.*;
 public class OWALandingPage {
 
     By loginAlert = By.xpath("//body/div[@id='root']/div[1]/div[1]/a[1]/div[1]/div[2]");
-    By programModule = By.xpath("//a[@id='MENU_PROGRAMS']");
+    By programModule = By.xpath("//body/div[@id='root']/div[2]/div[2]/div[2]/a[2]");
     By discipline = By.xpath("//div[contains(text(),'Discipline')]");
-    By program = By.xpath("//div[contains(text(),'Program')]");
+    By program = By.xpath("//body/div[@id='root']/div[2]/div[2]/div[2]/a[2]");
     By ordercode = By.xpath("//div[contains(text(),'Order Code')]");
     By analytes = By.xpath("//div[contains(text(),'Analytes')]");
     By providersModule = By.xpath("//a[contains(text(),'Providers')]");

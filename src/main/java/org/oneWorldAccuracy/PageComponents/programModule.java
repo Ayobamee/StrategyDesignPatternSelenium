@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class programModule extends AbstractComponent {
-    By programModule = By.xpath("//a[@id='MENU_PROGRAMS']");
+    By programModule = By.xpath("//body/div[@id='root']/div[2]/div[2]/div[2]/a[2]");
 
 
 
